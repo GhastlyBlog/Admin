@@ -1,0 +1,65 @@
+html,body {
+    font-family: 'Open sans', sans-serif;
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+div.header {
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.write-row  {
+    height: 80%;
+}
+.preview-col {
+    height: 100%;
+}
+#preview{
+    overflow-y: hidden;
+    height: 90%;
+    padding-right: 10px;
+}
+.content-editor, .write-row .editor, .editor form {
+    height: 90%;
+}
+.content-editor textarea {
+    height: 100%;
+}
+.no-padding {
+    padding-right: 0;
+    padding-left: 0;
+}
+.write .form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #ccc;
+    box-shadow: none;
+}
+.login {
+    padding-top: 50px;
+}
+.login h1 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.alert.error {
+    text-align: center;
+}
+.alert.error ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.login input {
+    text-align: center;
+}
+.form-actions {
+    margin: 0;
+    text-align: center;
+}

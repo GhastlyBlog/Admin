@@ -1,0 +1,21 @@
+
+{% extends "admin_base.html" %}
+
+{% block content %}
+<div class="container-fluid">
+    {% include "admin_header.html" %}
+    
+{% if posts %}
+<div class="posts-list">
+    <div class="list-group">
+        {% for post in posts %}
+        <a href="/admin/edit/{{ post.filename }}" class="list-group-item">{{ post.filename }}</a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+</div>
+
+
+{% endblock %}

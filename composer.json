@@ -1,0 +1,9 @@
+{
+    "name" : "ghastly/admin",
+    "description" : "An admin plugin for Ghastly",
+    "type" : "ghastly-plugin",
+    "license" : "UNLICENSE",
+    "require" : {
+        "ghastly/plugin-installer" : "@dev"
+    }
+}

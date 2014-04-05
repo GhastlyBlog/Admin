@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+	<head>
+	    {% block head %}
+	        <title>Admin - {{ blog_title }}</title>
+	        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    {% endblock %}
+	    {% include "admin_head.html" %}
+	</head>
+	<body>
+
+	{% block header %}{% endblock %}
+
+	{% block content %}{% endblock %}
+
+	{% block footer %}{% endblock %}
+
+        <script type="text/javascript" src="{{blog_url}}/plugins/admin/bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="{{blog_url}}/plugins/admin/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{{blog_url}}/plugins/admin/bower_components/markdown/lib/markdown.js"></script>
+        <script type="text/javascript" src="{{blog_url}}/plugins/admin/assets/js/admin.js"></script>
+	</body>
+</html>
